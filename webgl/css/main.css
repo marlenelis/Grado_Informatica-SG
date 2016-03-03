@@ -1,0 +1,48 @@
+
+/* 
+    Created on : 26-abr-2015, 14:35:21
+    Author     : Marlene Vásquez
+*/
+
+@font-face {
+    font-family: timeburner; 
+    src: url(../fonts/timeburner.ttf); 
+   
+}
+
+body{
+    width: 1100px;
+    margin: auto;
+    background-color: black;
+    font-size: 1.1em;
+    font-family: timeburner;   
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+div.content{
+    width: 98%;
+    background-color: gainsboro;
+    position: relative;
+    margin: auto;
+    padding-top:  0.1em;
+}
+div#content_canvas{
+    width: 85%; 
+    height: 27em;
+    margin: auto;
+    background: url("../textures/stars.png") no-repeat;
+}
+canvas#your_canvas{
+    width: 100%;
+    height:100%;
+    
+}
+div > ul{
+    margin:0 3em 0.5em  ;
+}
+p{
+     text-align: center;
+}
